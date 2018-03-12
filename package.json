@@ -1,0 +1,18 @@
+{
+  "name": "promise-completer-es5",
+  "version": "1.0.0",
+  "description": "A completer externalizes the completion of a Promise (which means it is resolved or rejected manually at a later time).",
+  "main": "./dist/completer.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "promise", "async"
+  ],
+  "author": "Stephan Schröder",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^2.7.2"
+  }
+}
