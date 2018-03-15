@@ -8,11 +8,22 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "promise", "async"
+    "promise",
+    "async"
   ],
-  "author": "Stephan Schröder",
+  "homepage": "https://github.com/simon-void/promise-completer-es5",
+  "bugs": {
+    "url": "https://github.com/simon-void/promise-completer-es5/issues"
+  },
+  "author": {
+    "name": "Stephan Schröder",
+    "email": "simon.void+github@gmail.com"
+  },
   "license": "ISC",
   "devDependencies": {
     "typescript": "^2.7.2"
+  },
+  "dependencies": {
+    "es6-promise": "^4.2.4"
   }
 }
